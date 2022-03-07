@@ -1,3 +1,31 @@
 # PisteTaVoiture
 
-In this project, we will try to recognize a car through a video and if we have the facilities for this, we will try to recognize the brand of it
+This AI will recognize cars and there brands
+
+## Table of content
+
+- [Installation](#installation)
+- [Execution](#execution)
+
+## Installation
+
+To run this app, you'll need these libraries : 
+
+- OpenCv : 
+```sh
+pip install opencv-python
+```
+
+- Numpy :
+```sh
+pip install numpy
+```
+
+## Execution
+
+Run the script with the following command :
+
+```sh
+python pisteTaVoiture.py
+```
+
