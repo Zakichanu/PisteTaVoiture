@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Capture video frames
-snippet = cv2.VideoCapture('VideoSnippet/carv2.mp4')
+snippet = cv2.VideoCapture('VideoSnippet/carJakarta.mp4')
 
 # Using cascade classifier technique to capture if the object is a car
 cascadeAlgorithm = cv2.CascadeClassifier('classfierCascadeCar.xml')
