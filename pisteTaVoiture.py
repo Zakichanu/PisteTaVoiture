@@ -8,6 +8,7 @@ snippet.set(cv2.CAP_PROP_FPS, 60)
 print(snippet)
 
 
+
 # Using cascade classifier technique to capture if the object is a car
 cascadeAlgorithm = cv2.CascadeClassifier('classfierCascadeCar.xml')
 
