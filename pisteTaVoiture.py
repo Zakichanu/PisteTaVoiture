@@ -1,8 +1,13 @@
-import cv2
 import numpy as np
+import cv2
+
 
 # Capture video frames
-snippet = cv2.VideoCapture('VideoSnippet/carJakarta.mp4')
+snippet = cv2.VideoCapture('VideoSnippet/carv2.mp4')
+snippet.set(cv2.CAP_PROP_FPS, 60) 
+print(snippet)
+
+
 
 # Using cascade classifier technique to capture if the object is a car
 cascadeAlgorithm = cv2.CascadeClassifier('classfierCascadeCar.xml')
@@ -13,7 +18,7 @@ while True:
     #gray = cv2.cvtColor(frames, cv2.COLOR_BGR2GRAY)
     
     # Applying algorith to detect cars, using B&W filter with 1.1 as ScaleFactor and 9 neighbors minimum
-    cars = cascadeAlgorithm.detectMultiScale(frames, 1.15, 4)
+    cars = cascadeAlgorithm.detectMultiScale(frames, 1.05, 13)
 
     # Drawing rectangle to around cars
     for(coord_x, coord_y, width, height) in cars:
