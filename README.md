@@ -6,8 +6,15 @@ This AI will recognize cars and there brands
 
 - [PisteTaVoiture](#pistetavoiture)
   - [Table of content](#table-of-content)
+  - [Ressources](#ressources)
   - [Installation](#installation)
   - [Execution](#execution)
+
+
+## Ressources
+
+Image dataset : [Nicolas Gervais's dataset](https://github.com/nicolas-gervais/predicting-car-price-from-scraped-data/tree/master/picture-scraper)
+
 
 ## Installation
 
